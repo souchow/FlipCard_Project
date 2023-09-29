@@ -21,7 +21,7 @@ body {
   }
   
   .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
   
   .flip-card-front, .flip-card-back {
@@ -40,5 +40,5 @@ body {
   .flip-card-back {
     background-color: rgb(187, 40, 192);
     color: rgb(218, 187, 218);
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
